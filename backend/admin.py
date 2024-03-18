@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import Measurement, HydroponicsSystem
 
-# Register your models here.
+
+admin.site.register(Measurement)
+admin.site.register(HydroponicsSystem)
